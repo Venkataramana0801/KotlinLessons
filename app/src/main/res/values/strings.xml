@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">KotlinLessons</string>
+
+    <string name="lesson1">Lesson1</string>
+    <string name="lesson2">Lesson2</string>
+    <string name="lesson3">Lesson3</string>
+    <string name="lesson4">Lesson4</string>
+    <string name="lesson5">Lesson5</string>
+    <string name="lesson6">Lesson6</string>
 </resources>
