@@ -10,7 +10,13 @@ import com.example.kotlinlessons.R
 
 class Lesson1Activity : AppCompatActivity() {
     private val name = "Venkata Ramana"
+    var name1 = ""
+    var name2: String =""
+    var name3: String? = null
     private val experience = 13
+    private var experience1 = 0
+    private var experience2: Int = 0
+
     private val company = "IT Solutions"
     private val isAndroidDeveloper = true
 
@@ -24,7 +30,7 @@ class Lesson1Activity : AppCompatActivity() {
             insets
         }
 
-        var salary=50000
+        var salary = 50000
 
         Log.i("Name :", "$name")
         Log.i("Experience :", "$experience")
@@ -33,5 +39,12 @@ class Lesson1Activity : AppCompatActivity() {
         Log.i("Before salary :", "$salary")
         salary = 60000
         Log.i("After salary :", "$salary")
+
+        name1="Name1"
+        name2="Name2"
+        name3="Name3"
+
+        experience1=10
+        experience2=15
     }
 }
