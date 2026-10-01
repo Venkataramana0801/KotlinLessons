@@ -39,6 +39,8 @@ class Lesson8Activity : AppCompatActivity() {
             Employee("Ramesh", 70000, 15, "Android")
         )
 
+        Log.i(TAG, "Average salary of employees is ${employees.averageSalary()}")
+
         employees.printEmployees()
     }
 
@@ -79,6 +81,14 @@ class Lesson8Activity : AppCompatActivity() {
                 "Extension",
                 "${it.name} - ${it.department}"
             )
+        }
+    }
+
+    fun List<Employee>.averageSalary(): Double {
+        return if (isEmpty()) {
+            0.0
+        } else {
+            return sumOf { it.salary }.toDouble() / size
         }
     }
 }
