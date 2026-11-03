@@ -83,7 +83,7 @@ class Lesson14Activity : AppCompatActivity() {
     }
 
     companion object {
-        const val TAG = "Lesson14Activity";
+        const val TAG = "Lesson14Activity"
     }
 
 }
