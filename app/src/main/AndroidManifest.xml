@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinLessons">
         <activity
-            android:name=".lesson14.Lesson14Activity"
+            android:name=".lesson15.Lesson15Activity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -75,6 +75,10 @@
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".lesson13.Lesson13Activity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".lesson14.Lesson15Activity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>
